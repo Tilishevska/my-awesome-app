@@ -68,3 +68,8 @@ img {
   top: -30px;
   font-weight: 500;
 }
+
+.github-link {
+  margin-top: 20px;
+  font-size: smaller;
+}
