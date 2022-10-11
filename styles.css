@@ -1,0 +1,70 @@
+body {
+  font-family: "PT Mono", monospace;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popular-cities {
+  font-size: 18px;
+  color: rgb(103, 104, 117);
+  font-family: "Quicksand", sans-serif;
+}
+
+.chosen-city {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.search-form {
+  padding-top: 20px;
+}
+
+.search-btn {
+  font-size: larger;
+  background-color: rgb(152, 148, 148);
+}
+
+.search-btn:hover,
+.current-city-btn:hover {
+  background-color: rgb(241, 243, 234);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.weather-days,
+.humidity-wind {
+  padding-top: 20px;
+}
+
+.hum-wind {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+#current-weather-desc {
+  font-weight: 600;
+}
+.weekday {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.main-temperature {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.units {
+  position: relative;
+  top: -30px;
+  font-weight: 500;
+}
