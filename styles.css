@@ -1,75 +1,131 @@
 body {
-  font-family: "PT Mono", monospace;
-}
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
 
-img {
-  margin-bottom: 20px;
 }
-
-.main-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 30px 60px;
-  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+.container {
+    text-align: center;
+    width: 900px;
+    padding: 30px;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
-
-.popular-cities {
-  font-size: 18px;
-  color: rgb(103, 104, 117);
-  font-family: "Quicksand", sans-serif;
+.row {
+    padding: 15px;
 }
-
-.chosen-city {
-  text-align: center;
-  padding-bottom: 20px;
+h1{
+    text-align: left;
+    font-size: 42px;
+    line-height: 72px;
+    font-weight: 500;
 }
-
-.search-form {
-  padding-top: 20px;
+h2 {
+    text-align: left;
+    font-size: 24px;
 }
-
-.search-btn {
-  font-size: larger;
-  background-color: rgb(152, 148, 148);
+h3 {
+    text-align: left;
+    font-size: 24px;
 }
-
-.search-btn:hover,
-.current-city-btn:hover {
-  background-color: rgb(241, 243, 234);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+h1, h2, h3 {
+    color: #272343;
 }
-
-.weather-days,
-.humidity-wind {
-  padding-top: 20px;
+h2:first-letter {
+    text-transform: capitalize;
 }
-
-.hum-wind {
-  font-size: 17px;
-  font-weight: 600;
+ul {
+    font-size: 24px;
+    text-align: left;
+    list-style: none;
 }
-
-#current-weather-desc {
-  font-weight: 600;
+li {
+    text-align: left;
+    line-height: 36px;
 }
-.weekday {
-  font-size: 17px;
-  font-weight: 600;
+a {
+    text-decoration: none;
+    color: #272343;
 }
-
-.main-temperature {
-  font-size: 54px;
-  font-weight: 600;
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2723434a;
 }
-
+.temperatureNow {
+    font-size: 60px;
+    color: #272343;
+    font-weight: normal;
+    line-height: 80px;
+}
 .units {
-  position: relative;
-  top: -30px;
-  font-weight: 500;
+font-size: 24px;
+color: #272343;
+vertical-align: top;
+}
+.img {
+    width: 90px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+.search-btn,
+.current-city-btn {
+    font-size: larger;
+    background-color: rgb(217, 214, 214);
+    border-color: black;
+    color: rgb(23, 23, 23);
+  }
+  
+  .search-btn:hover,
+  .current-city-btn:hover {
+    background-color: rgb(241, 243, 234);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-color: black;
+    color: rgb(23, 23, 23);
+  }
+
+.weather-app .form-control {
+    padding: 10px;
+    border: solid 1px #d5f0ee;
+}
+.weather-description {
+    text-align: center;
 }
 
-.github-link {
-  margin-top: 20px;
-  font-size: smaller;
+.weather-forecast-day {
+    font-size: 20px;
+    color: #272343;
+}
+.weather-forecast-temperature-max {
+    font-size: 20px;
+    color: #272343;
+}
+.weather-forecast-temperature-min {
+    font-size: 20px;
+    color: #272343a6;
+}
+.weather-forecast-description {
+    font-size: 18px;
+    color: #272343;
+}
+.card {
+    border: solid 2px #e3f6f5;
+    background: #9ba6f9;
+    border-radius: 15px;
+}
+.card:hover {
+    cursor: pointer;
+    background: #6c7ae0;
+}
+small {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.tip {
+    font-size: larger;
+    color: #431575;
 }
